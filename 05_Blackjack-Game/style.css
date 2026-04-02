@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background-image: url(images/blackjack.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+padding: 20px;
+text-align: center;
+font-family: serif;
+}
+
+h1{
+    color: goldenrod;
+}
+
+p{
+    font-size: 17px;
+    color: white;
+    padding: 6px;
+}
+
+#message-el{
+    color: #ccff;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#cards-el{
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#sum-el{
+font-size: 17px;
+font-weight: bold;
+margin-top: 10px;  
+}
+
+button{
+    border: none;
+    padding: 16px 24px;
+    display: block;
+    width: 200px;
+    margin: 0 auto 15px;
+    margin-top: 10px;
+    background-color: goldenrod;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(images/blackjack.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    color: white;
+    text-transform: capitalize;
+   
+}
+
+h1{
+    color: goldenrod;
+    text-align: center;
+}
+
+p{
+    margin-top: 8px;
+    font-size: 28px;
+    padding: 5px;
+}
+
+#message-el{
+  font-weight: bold;
+}
+
+button{
+    padding: 14px 22px;
+    border: none;
+    background-color: goldenrod;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 20px 0;
+    width: 200px;
+    display: block;
+    text-align: center;
+    margin: 0 auto 20px;
+    
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

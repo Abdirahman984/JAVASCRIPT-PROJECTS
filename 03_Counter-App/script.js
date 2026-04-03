@@ -1,147 +1,126 @@
-// SELCTING H2 COUNTEL DOCUMENT.GETELEMENTBYID
-let countEl = document.getElementById("count-el")
-let incrementButton = document.getElementById("increment-btn")
-let saveButton = document.getElementById("save-btn")
-let saveEle = document.getElementById("save-El")
-
-
-// FUNCATION FOR ADDEVENTLISTENER
-let count = 0
-function increment (){
- count += 1
-console.log(count)
- countEl.textContent = count  
-}
-
-// FUNCATION SAVE BUTTON
-function save (){
- let countStri = count + "-"
- saveEle.textContent += countStri
- countEl.textContent =0
- count=0
-}
-
-save()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-// SELETING THE H2 GET ELEMENTS
-const countEl=document.getElementById("count-el");
-
-// SELECT ELEMENTS AS GET ELEMENT BY ID
-let incrementButton = document.getElementById("increment-btn")
-let saveButton = document.getElementById("save-btn")
-let saveEle = document.getElementById("save-El")
-
-
- let count = 0
-// FUNCTION FOR EVENT LISTNER
-function increment(){
- count += 1
- countEl.textContent = count
- console.log(countEl)
+let displayText = document.getElementById("displayText");
+// THIS DISPLAYTEXT WLLL SHOW YOU COUNTING 
+
+let displaySaveCount = document.getElementById("displaysaveCounting");
+// THIS WLL SAVE YOUR COUNTNG AND DISPLAY TO THE PAGE 
+
+let count = 0;
+// THIS IS A VARIALBLE WHERE COUNTING START 
+let saveCount = []
+
+// THIS FUNCATION WILL HELP YOU TO COUNT AND ADD 1 EVERY STEP 
+function startCounting (){
+    count +=1
+  displayText.textContent = count
 
 }
-
-function save (){
-   let countStri = count + "-"
-   saveEle.textContent += countStri
-   countEl.textContent = 0
-   count=0
-
-    console.log(count)
+// THIS WILL HELP YOU TO SAVE COUNTING
+function saveCounting (){
+    saveCount.push(count)
+    displaySaveCount.textContent = saveCount.join(" - ")
+    count =0;
 }
 
-save() */
+// THIS FUNCATION WILL HELP YOU TO RESTART COUNTING AGAIN
+function restartCounting (){
+    count = 0;
+    displayText.textContent = "0";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

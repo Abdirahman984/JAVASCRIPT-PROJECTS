@@ -5,15 +5,192 @@
 }
 
 body{
+    background-image: url(images/counter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px 30px;
+    text-align: center;
+    font-family: serif;
+    text-transform: capitalize;
+}
+
+h1{
+margin-bottom: 7px;
+color:rgb(255, 47, 130);
+}
+
+p{
+color: #655;
+font-size: 18px;
+}
+
+#displayText{
+    margin: 16px 0;
+    padding: 14px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border:none;
+    background-color:rgb(255, 47, 130);
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    padding: 100px 0;
+}
+
+.container{
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+
+#displaysaveCounting{
+    background-color: rgb(255, 47, 130);;
+    width: 300px;
+    height: 300px;
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+}
+button{
+    padding: 14px 20px;
+    width: 250px;
+    /* height: 200px; */
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 16px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
     background: url(images/train-station.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     /* background-position: center; */
-    text-align: center;
+    /* text-align: center;
     font-weight: bold;
     font-size: 24px;
  
-}
+} 
 
 h1, h2{
     padding: 10px;
@@ -41,4 +218,4 @@ button{
 
 #save-btn{
     background-color: darkgreen;
-}
+} */ 
